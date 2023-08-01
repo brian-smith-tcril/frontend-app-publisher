@@ -11,7 +11,7 @@ const ActionButton = ({ className, primary, ...passThroughProps }) => (
     variant={primary ? "primary" : 'outline-primary'}
     className={classNames({
       btn: true,
-      'form-submit-btn': true,
+      "form-submit-btn": true,
     }, className)}
   />
 );
